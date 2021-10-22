@@ -1,0 +1,237 @@
+#banner {
+	width:100%;
+}
+.principal{
+	background: #CCCCCC;
+	font-size: 30px;
+}.caixa {
+	position: relative;
+	width: 2000px;
+	margin: 0 auto;
+	padding: 20px;
+	color: white;
+}
+
+nav {
+	position: absolute;
+	top: 220px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 auto;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.titulo-principal {
+	background: #BBBBBB;
+	padding-left: 20px;
+	font-size: 100px;
+	text-align: center;
+}
+
+.titulo-centralizado {
+	text-align: center
+	font-size: 30px;
+
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 30px
+	text-align: justify;
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.itens {
+	font-style: italic;
+
+}
+
+.beneficios {
+	background: #FFFFFF;
+	padding: 40px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembeneficios {
+	width: 30%;
+	padding: 40px 0;
+
+
+
+}
+.itens{
+	font-size: 30px;
+}
+
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+/* Página de contato */
+.contato {
+	width: 940px;
+	margin: 40px auto;
+}
+.nome{
+	padding: 5px;
+}
+.email{
+	padding: 5px;
+}
+.telefone{
+	padding: 5px;
+}
+.mensagem{
+	padding: 5px;
+}
+
+.contato label, .input-group legend {
+	display: block;
+	margin: 0 0 5px;
+	font-size: 20px;
+}
+
+.campo-padrao, textarea {
+	display: block;
+	margin: 0 0 30px;
+	padding: 10px 20px;
+	width: 50%;
+	border: 1px solid #aaa;
+}
+
+.input-group {
+	margin: 0 0 20px;
+}
+
+.newsletter {
+	margin: 0 0 20px;
+}
+
+.botao {
+	margin: 20px 0 0;
+	width: 30%;
+	padding: 10px 20px;
+	font-size: 24px;
+	display: inline-block;
+	background: orange;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	transition: 1s;
+}
+
+.botao:hover {
+	cursor: pointer;
+	transform: scale(1.2);	
+}
+
+.funcionamento {
+	width: 940px;
+	margin: 0 auto 40px;
+}
+
+table {
+	margin: 10px 0 0;
+}
+
+th  {
+	background: #777777;
+	color: #FFFFFF;
+}
+
+
+td, th {
+	border: 1px solid #000000;
+	padding: 5px 20px;
+}
+main{
+	width: 950px;
+	margin: 0 auto;
+}
+form{
+	margin: 40px 0;
+}
+.mensagem{
+	padding: 20px;
+}
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+.checkbox{
+	padding: 20px;
+}
+.imput-padrao{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+.cont{
+	padding: 10px;
+}
+.envia{
+	width: 40%;
+	padding: 15px 0px;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1.5s all;
+
+}
+.envia:hover{
+	background: darkred;
+	transform: scale(1.2);
+	transform: rotate();
+}
+table{
+	margin: 20px 0 40px;
+}
+thead{
+	background: #000000;
+	color: white;
+	font-weight:bold;
+}
+td, th{
+	border: 1px solid #000000;
+	padding: 8px 15px;
+}
