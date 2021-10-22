@@ -54,7 +54,7 @@ p {
 }
 
 #missao {
-	font-size: 90px
+	font-size: 30px
 	text-align: justify;
 }
 
@@ -157,7 +157,7 @@ footer {
 
 .botao:hover {
 	cursor: pointer;
-	transform: scale(1.2);
+	transform: scale(1.2);	
 }
 
 .funcionamento {
